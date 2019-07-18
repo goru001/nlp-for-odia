@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Odia Embedding Vectors",
+      "tensorShape": [
+        15000,
+        400
+      ],
+      "tensorPath": "https://media.githubusercontent.com/media/goru001/nlp-for-odia/master/language-model/embeddings.tsv",
+      "metadataPath": "https://media.githubusercontent.com/media/goru001/nlp-for-odia/master/language-model/embeddings_metadata.tsv"
+    }
+  ]
+}
