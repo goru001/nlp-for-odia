@@ -1,28 +1,48 @@
 # NLP for Odia
 
-This repository contains State of the Art Tokenizer, Language model
- and Classifier for Odia, which is spoken spoken in the Indian state of Odisha.
+This repository contains State of the Art Language models
+ and Classifier for Odia, which is spoken in the Indian state of Odisha.
+  
+The models trained here have been used in [Natural Language Toolkit for Indic Languages
+ (iNLTK)](https://github.com/goru001/inltk)
+
 
 ## Dataset
 
-* Download [Odia Wikipedia Articles Dataset](https://drive.google.com/open?id=1urhDry1d6geLSKUl9SZdxw2BB61vyb_D) (17,781 articles) which I scraped, cleaned and
-used to train the language model
+#### Created as part of this project
+1. [Odia Wikipedia Articles](https://www.kaggle.com/disisbig/odia-wikipedia-articles)
 
-* Download [Odia News classification Dataset](https://drive.google.com/open?id=1dHPdD5E-cK48nUH6AjsEQe5fOKkexodj) which I scraped and used to train 
-the classifier
+2. [Odia News Dataset](https://www.kaggle.com/disisbig/odia-news-dataset)
+
 
 ## Results
 
-#### Language Model
+#### Language Model Perplexity
 
-`on 30% validation set`
+| Architecture/Dataset | Odia Wikipedia Articles |
+|:--------:|:----:|
+|   ULMFiT  |  26.57  |
+|  TransformerXL |  26.81  |
 
-* Perplexity of language model: ~27
 
-#### Classifier
+#### Classification Metrics
 
-* Accuracy of classification model: ~95%
-* Kappa score of classification model: ~92
+##### ULMFiT
+
+| Dataset | Accuracy | Kappa Score |
+|:--------:|:----:|:----:|
+| Odia News Dataset |  95.52 |  93.02  |
+
+
+#### Visualizations
+ 
+##### Embedding Space
+
+| Architecture | Visualization |
+|:--------:|:----:|
+| ULMFiT | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-odia/master/language-model/embedding_projector_config.json) |
+| TransformerXL | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/goru001/nlp-for-odia/master/language-model/embedding_projector_transformer_config.json)  |
+
 
 ## Pretrained Language Model
 

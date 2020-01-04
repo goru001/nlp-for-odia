@@ -1,7 +1,7 @@
 {
   "embeddings": [
     {
-      "tensorName": "Odia Embedding Vectors",
+      "tensorName": "Odia Embedding Vectors - ULMFiT",
       "tensorShape": [
         15000,
         400
