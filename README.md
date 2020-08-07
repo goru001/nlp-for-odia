@@ -19,7 +19,7 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 ## Results
 
-#### Language Model Perplexity
+#### Language Model Perplexity (on validation set)
 
 | Architecture/Dataset | Oriya Wikipedia Articles |
 |:--------:|:----:|
@@ -49,7 +49,7 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 #### Language Models 
 
-Download pretrained Language Model from [here](https://drive.google.com/open?id=1aTiXrnSHakkRzZHGjIJ0Euaq9E8k8HPe)
+Download pretrained Language Models from [here](https://drive.google.com/open?id=1aTiXrnSHakkRzZHGjIJ0Euaq9E8k8HPe)
 
 #### Tokenizer
 
